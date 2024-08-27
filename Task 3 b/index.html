@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship - Cognifyz Technologies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="container">
+        <h1>Cognifyz Technologies</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <h2>Web Developer Internship Opportunities</h2>
+        <p>Start your journey with Cognifyz Technologies and build your career as a web developer.</p>
+        <a href="#apply" class="btn">Apply Now</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Cognifyz Technologies is a leading provider of innovative web solutions. Our internship program is designed to offer students and aspiring web developers the opportunity to work on real-world projects and develop their skills under the guidance of experienced professionals.</p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>We specialize in creating high-performance websites tailored to your business needs.</p>
+        </div>
+        <div class="service-card">
+            <h3>UI/UX Design</h3>
+            <p>Our design team creates user-friendly interfaces that provide an engaging experience.</p>
+        </div>
+        <div class="service-card">
+            <h3>E-commerce Solutions</h3>
+            <p>We offer complete e-commerce solutions to help you sell your products online.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <div class="container">
+        <h2>Our Work</h2>
+        <div class="thumbnails">
+            <img src="./pexels-divinetechygirl-1181359.jpg" alt="Project 1" onclick="enlargeImage(this)">
+            <img src="./pexels-divinetechygirl-1181703.jpg" alt="Project 2" onclick="enlargeImage(this)">
+            <img src="./pexels-pixabay-163176.jpg" alt="Project 3" onclick="enlargeImage(this)">
+        </div>
+        <div class="enlarged">
+            <img id="enlargedImage" src="./pexels-pixabay-163176.jpg" alt="Enlarged Project Image">
+        </div>
+    </div>
+</section>
+
+<!-- Slideshow Section -->
+<section id="slideshow" class="slideshow-section">
+    <div class="container">
+        <h2>Internship Experience</h2>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="./pexels-kevin-ku-92347-577585.jpg" alt="Slide 1">
+            </div>
+            <div class="slides fade">
+                <img src="./pexels-divinetechygirl-1181298.jpg" alt="Slide 2">
+            </div>
+            <div class="slides fade">
+                <img src="./pexels-danny-meneses-340146-943096.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials-section">
+    <div class="container">
+        <h2>What Our Interns Say</h2>
+        <div class="testimonial">
+            <p>"The internship at Cognifyz Technologies was an invaluable experience that gave me the skills and confidence to start my career in web development."</p>
+            <h4>— Sakshi Jhariya</h4>
+        </div>
+        <div class="testimonial">
+            <p>"I learned so much from the mentorship and hands-on projects. This internship was the perfect stepping stone to my professional journey."</p>
+            <h4>— Savita Jhariya</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <p>Contact Us: info@cognifyz.com | +1 (123) 456-7890</p>
+        <p>© 2024 Cognifyz Technologies. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
